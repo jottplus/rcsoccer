@@ -19,7 +19,7 @@ export default class Camera {
             0.1,
             100
         )
-        this.instance.position.set(0, 7, 15)
+        this.instance.position.set(0, 10, 10.6)
         this.instance.lookAt(new THREE.Vector3(0, 0, 0))
         this.scene.add(this.instance)
     }
